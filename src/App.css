@@ -8,6 +8,7 @@
     width: 600px;
     height: 600px;
     object-fit: contain;
+    
 }
 
 .button{
@@ -82,8 +83,6 @@
 
 }
 
-.button,
-.buttonOff,
-.buttonFlicker:hover{
-    cursor: pointer;
-}
+
+
+
