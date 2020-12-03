@@ -6,11 +6,11 @@ function Bulb() {
 
     return (
      <div className="container">
-         <img src={img}></img>
+         <img src={img} className="img"></img>
          <div className="button">
-             <button> Hello </button>
-             <button></button>
-             <button></button>
+             <button className="buttonOn"> on </button>
+             <button className="buttonOff"> off </button>
+             <button className="buttonFlicker"> Flicker </button>
          </div>
      </div>
     )
