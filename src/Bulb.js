@@ -1,11 +1,14 @@
 import React from 'react'
+import img from "./img/bulb.jpg"
 
 function Bulb() {
+
+
     return (
      <div className="container">
-         <img />
+         <img src={img}></img>
          <div className="button">
-             <button></button>
+             <button> Hello </button>
              <button></button>
              <button></button>
          </div>
