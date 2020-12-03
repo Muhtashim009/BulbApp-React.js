@@ -2,9 +2,14 @@ import React from 'react'
 
 function Bulb() {
     return (
-        <div>
-            
-        </div>
+     <div className="container">
+         <img />
+         <div className="button">
+             <button></button>
+             <button></button>
+             <button></button>
+         </div>
+     </div>
     )
 }
 
