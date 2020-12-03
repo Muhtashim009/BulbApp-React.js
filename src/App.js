@@ -1,9 +1,11 @@
 import React from 'react'
+import Bulb from './Bulb';
+import './App.css';
 
 function App() {
   return (
     <div>
-      <h1> Hello World </h1>
+      <Bulb />
     </div>
   )
 }
