@@ -11,7 +11,11 @@ function Bulb() {
 
     return (
      <div className="container">
-         <img src={img} className={style.img}
+         <img src={img} className={
+             turOn ? style.bulbOn :
+             turnOff ? style.bulbOn :
+             flicker ? style.flicker :
+             style.img}
          
          >   
          </img>
