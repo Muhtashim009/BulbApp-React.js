@@ -10,11 +10,26 @@ function Bulb() {
 
     return (
      <div className="container">
-         <img src={img} className="img"></img>
+         <img src={img} className={style.img}></img>
          <div className="button">
-             <button className="buttonOn"> on </button>
-             <button className="buttonOff"> off </button>
-             <button className="buttonFlicker"> Flicker </button>
+             <button className="buttonOn"
+             onClick={() => setTurnOn(true)}>
+             on
+             </button>
+             <button className="buttonOff" onClick={() => {
+                turnOff(true);
+              setTurnOn(false)
+              }}>
+             off
+             </button>
+             <button className="buttonFlicker"
+             onClick={() => {
+                 setFlicker(true);
+                 setTurnOn(false);
+                 setTurnOff(false)
+             }}>
+             Flicker
+             </button>
          </div>
      </div>
     )
