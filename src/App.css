@@ -9,3 +9,33 @@
     height: 600px;
     object-fit: contain;
 }
+
+.button{
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonOn{
+    width: 120px;
+    height: 30px;
+    margin: 20px;
+    background-color: brown;
+    color: white;
+}
+
+.buttonOff{
+    width: 120px;
+    height: 30px;
+    margin: 20px;
+    background-color: black;
+    color: white;
+}
+
+.buttonFlicker{
+    width: 120px;
+    height: 30px;
+    margin: 20px;
+    color: white;
+    background-color: rgb(180, 134, 77);
+    animation: flick 7s linear infinite;
+}
