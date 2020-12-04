@@ -1,6 +1,6 @@
 import React from 'react'
-import Bulb from './Bulb';
-import './App.css';
+import Bulb from './Bulb'
+import './App.css'
 
 function App() {
   return (
