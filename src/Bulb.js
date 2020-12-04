@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import img from "./img/bulb.jpg"
-import style from './App.css'
 
 function Bulb() {
 
@@ -8,12 +7,9 @@ function Bulb() {
     const [turnOff, setTurnOff] = useState(false)
     const [flicker, setFlicker] = useState(false)
 
-
     return (
      <div className="container">
-         <img src={img} className="img"
-         
-         >   
+         <img src={img} className="img" >   
          </img>
          <div className="button">
              <button className="buttonOn"
